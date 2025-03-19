@@ -1,0 +1,12 @@
+[package]
+name = "typescript"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chumsky = "1.0.0-alpha.8"
+clap = { version = "4.5.32", features = ["derive"] }
+
+[[bin]]
+name = "tsrs"
+path = "src/main.rs"
