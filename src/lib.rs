@@ -1,4 +1,4 @@
-pub mod ast;
 pub mod cli;
 pub mod compile;
-pub mod parse;
+pub mod compiler;
+// pub mod parse;
